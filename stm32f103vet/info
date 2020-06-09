@@ -1,0 +1,318 @@
+{
+  "uuid": "12a5eeafe7e6e2a80bfc1d75837c8275",
+  "path": "Offline/stm32f103vet",
+  "name": "stm32f103vet",
+  "content": "",
+  "created_at": "2020-06-03 14:17:20",
+  "updated_at": "2020-06-06 21:22:44",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ef1fcad28ae44d8b73f2f9ec131ebee5",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "19835ab916684424a4e6a37c04b9b5de": 1,
+        "c5886893668a4acaa30245eec9d17f42": 4,
+        "db65d5d41df14e42988f3e18d004e46a": 1,
+        "584d673271dd43738fb1ad2dd2772015": 1,
+        "ef0308c0ea86996567612637ce525ebc": 1,
+        "588dac9f81df8f83843513972963b454": 1,
+        "cf9b7dbca86d40b19c47fdbae7154460": 6,
+        "bea3d4ecb2438dc69affb2fcc0d5dec7": 1,
+        "1055112ca5820a0006cbcfefd80aa8b6": 1,
+        "8291d326dd7377d025fa72b5827a3a92": 1,
+        "e1dd8fd5739889b8160078d332681897": 1,
+        "b210af5a1436310a86e8b108e2e5a90b": 1,
+        "c119a751fe256ca593c801f0dad60a4a": 1,
+        "a14aefcb25084cc48d0533f794e9a36c": 3,
+        "d76a96ace12e453c9f8eb221d4b5393a": 1,
+        "7e7f373c37f51490171cc31d2dab9208": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Female-2.54_2x20",
+          2,
+          "HDR-TH_40P-P2.54-V-R2-C20-S2.54",
+          "P2,P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 2*20PFemale header",
+            "BOM_Supplier Part": "C50982",
+            "puuid": "4fa6875f0b7b460c80c766db83b40e86",
+            "uuid": "7e7f373c37f51490171cc31d2dab9208"
+          }
+        ],
+        [
+          "TS-1187A-B-A-B",
+          1,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.4",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C318884",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "TS-1187A-B-A-B",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "c404c84e62d24ea7bf01e5860ece7643",
+            "uuid": "584d673271dd43738fb1ad2dd2772015"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C6186",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "47uF",
+          1,
+          "CAP-SMD_L6.0-W3.2-R-RD",
+          "C18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TAJC476K016RNJ",
+            "BOM_Supplier Part": "C7219",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "df16d625dfca4e3a8e666008ebd0c1da",
+            "uuid": "8291d326dd7377d025fa72b5827a3a92"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "OSC-SMD_4P-L3.2-W2.5-BL",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C409359",
+            "BOM_Manufacturer": "TXC Corp",
+            "BOM_Manufacturer Part": "AM16000001",
+            "puuid": "3665faf5c7824047877c19fd71b91289",
+            "uuid": "19835ab916684424a4e6a37c04b9b5de"
+          }
+        ],
+        [
+          "22uF",
+          1,
+          "CAP-SMD_L3.5-W2.8-R-RD",
+          "C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TAJB226K016RNJ",
+            "BOM_Supplier Part": "C8020",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "08207830a388481382b20e2596f26dca",
+            "uuid": "1055112ca5820a0006cbcfefd80aa8b6"
+          }
+        ],
+        [
+          "AFC10-S06QCC-00",
+          3,
+          "CONN-SMD_6P-P1.00-H-M_AFC10-S06QCC-00",
+          "SPI2,SWD,UART1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395303",
+            "BOM_Manufacturer": "JUSHUO",
+            "BOM_Manufacturer Part": "AFC10-S06QCC-00",
+            "puuid": "ab40a502257246018b66d9319c28e807",
+            "uuid": "a14aefcb25084cc48d0533f794e9a36c"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0603",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF1002T5E",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25804",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b210af5a1436310a86e8b108e2e5a90b"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-SMD_L3.5-W2.8-R-RD",
+          "C16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TAJB106K016RNJ",
+            "BOM_Supplier Part": "C7193",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "08207830a388481382b20e2596f26dca",
+            "uuid": "bea3d4ecb2438dc69affb2fcc0d5dec7"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "C0603",
+          "C20",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KA8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C5673",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "c119a751fe256ca593c801f0dad60a4a"
+          }
+        ],
+        [
+          "12pF",
+          4,
+          "C0603",
+          "C1,C2,C3,C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C382067",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "06035A120K4T2A",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "c5886893668a4acaa30245eec9d17f42"
+          }
+        ],
+        [
+          "100nF",
+          6,
+          "C0603",
+          "C9,C8,C19,C6,C7,C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C187860",
+            "BOM_Manufacturer": "Holy Stone Enterprise",
+            "BOM_Manufacturer Part": "C0603X104K050T",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "cf9b7dbca86d40b19c47fdbae7154460"
+          }
+        ],
+        [
+          "AFC10-S04QCC-00",
+          1,
+          "CONN-SMD_4P-H-P1.00-TL_AFC10-S04QCC-00",
+          "PWR",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395301",
+            "BOM_Manufacturer": "JUSHUO",
+            "BOM_Manufacturer Part": "AFC10-S04QCC-00",
+            "puuid": "e5629a51b9fd4ab5a4cb97201bc4459d",
+            "uuid": "d76a96ace12e453c9f8eb221d4b5393a"
+          }
+        ],
+        [
+          "32.768KHz",
+          1,
+          "OSC-SMD_2P-L2.0-W1.2",
+          "X2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C409339",
+            "BOM_Manufacturer": "TXC Corp",
+            "BOM_Manufacturer Part": "9H03200028",
+            "puuid": "e3434b488d6b41f9b5310fb6aff11118",
+            "uuid": "db65d5d41df14e42988f3e18d004e46a"
+          }
+        ],
+        [
+          "STM32F103VET6",
+          1,
+          "LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "STM32F103VET6",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C8308",
+            "puuid": "28924aca11364ae1872207e418ceb582",
+            "uuid": "e1dd8fd5739889b8160078d332681897"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603F104M500NT",
+            "BOM_Supplier Part": "C42998",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "ef0308c0ea86996567612637ce525ebc"
+          }
+        ]
+      ],
+      "updateTime": 1591445459,
+      "createTime": 1591178799,
+      "histories": [],
+      "created_at": "2020-06-03 18:06:39",
+      "updated_at": "2020-06-06 20:10:59"
+    },
+    {
+      "uuid": "c9c984564523f1248b2e8812e33c7f89",
+      "puuid": "12a5eeafe7e6e2a80bfc1d75837c8275",
+      "title": "PCB_2020-06-04_18-27-06",
+      "filename": "PCB_2020-06-04_18-27-06.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ab40a502257246018b66d9319c28e807": 3,
+        "28924aca11364ae1872207e418ceb582": 1,
+        "c404c84e62d24ea7bf01e5860ece7643": 1,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 12,
+        "e3434b488d6b41f9b5310fb6aff11118": 1,
+        "4fa6875f0b7b460c80c766db83b40e86": 2,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 1,
+        "df16d625dfca4e3a8e666008ebd0c1da": 1,
+        "3665faf5c7824047877c19fd71b91289": 1,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "08207830a388481382b20e2596f26dca": 2,
+        "e5629a51b9fd4ab5a4cb97201bc4459d": 1
+      },
+      "BOM": [],
+      "updateTime": 1591449764,
+      "createTime": 1591266426,
+      "histories": [],
+      "created_at": "2020-06-04 18:27:06",
+      "updated_at": "2020-06-06 21:22:44"
+    }
+  ],
+  "sort": [],
+  "title": "stm32f103vet",
+  "foldername": "stm32f103vet",
+  "schfilename": "stm32f103vet.json",
+  "schfilemtime": 1591445459911
+}
